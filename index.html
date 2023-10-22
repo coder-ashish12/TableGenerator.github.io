@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <title>TablesGenerator - Get Table of Any Number in One Click.</title>
+</head>
+<body>
+    <div class="main">
+        <div class="heading">
+            <h1>TableGenerator</h1>
+        </div>
+        <div class="values">
+            <input type="number" name="number" id="tableof" placeholder="Enter The Number">
+            <input type="number" name="number" id="tillrange" placeholder="Enter The Range">
+        </div>
+        <div class="submit-btn">
+            <button onclick="generateTable()">Generate Table</button>
+        </div>
+        <div id="tableContainer" class="tableContainer"></div>
+
+        <div id="customAlert">
+            <p>Please Enter The Valid Numbers</p>
+            <button class="hideCustomAlert" onclick="hideCustomAlert()">Close</button>
+        </div>
+
+        <footer><span style="color: aquamarine;">&copycoder-ashish12</span></footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
